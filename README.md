@@ -68,11 +68,7 @@ loss = alpha * spearman_loss + (1 - alpha) * mse_loss
 * **TTA**: Horizontal, vertical, both flips
 * **Spatial Smoothing**: Gaussian filtering based on (x, y) coordinates
 
-```python
-smoothed_preds = gaussian_filter(raw_preds)
-```
 
----
 
 ## Results
 
