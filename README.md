@@ -26,7 +26,7 @@ Predict **cell-type abundance** from **stain-normalized histology images**. The 
 
 * **Reference Image**: Slide S\_1 used to normalize all other slides
 * **Vahadane Method**: For color deconvolution and stain normalization
-* **Augmentation and Standardization: Applied during training and evaluation via torchvision.transforms
+* **Augmentation and Standardization**: Applied during training and evaluation via torchvision.transforms
 
 
 ---
